@@ -1,0 +1,258 @@
+/*//META{"name":"Furz","description":"Theme for Furrys. Uses code from Aurora theme, By Tropical","author":"Aggraith, and Tropical","version":"1", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/
+
+/*Import CSS From Github*/
+@import url('https://korbsstudio.github.io/Aurora/css/base.css');
+/*
+/$$$$$$
+/$$__  $$
+| $$  \ $$ /$$   /$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$
+| $$$$$$$$| $$  | $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$
+| $$__  $$| $$  | $$| $$  \__/| $$  \ $$| $$  \__/ /$$$$$$$
+| $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$
+| $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$
+|__/  |__/ \______/ |__/       \______/ |__/      \_______/
+*/
+:root {
+  /*Color Variables*/
+  --main-color: linear-gradient(150deg, var(--gradient1), var(--gradient2));
+  /*Accent Color of the Theme*/
+  --gradient1: #3ecc9c;
+  /*First Gradient Color*/
+  --gradient2: #338a46;
+  /*Second Gradient Color*/
+  --hover-color: rgba(67, 206, 162, .5);
+  /*Secondary Accent of the Theme*/
+  --main-color-faded: rgba(50, 50, 50, 0.75);
+  /*Faded Main Color*/
+  --channels-default: rgba(200, 200, 200, 0.75);
+  /*Backdrop Variables*/
+  --backdrop: url(https://i.imgur.com/Xxh5GE6.jpg);
+  /*Normal Backdrop*/
+  --backdropblurred: url(https://i.imgur.com/Xxh5GE6.jpg);
+  /*Darker/Blurred Version of Backdrop*/
+  --backdrop-darkness: transparent;
+  /*Brightness of var(--backdrop);*/
+  /*Roundness Variables*/
+  --chat-avatar-roundness: 5px !important;
+  /*Roundness of chat avatars*/
+  --media-roundness: 50px !important;
+  /*General Roundness*/
+  --guild-hovered-roundness: 12px !important;
+  /*Roundness of servers on hover*/
+  /*Status Variables*/
+  --online: #43b581 !important;
+  /*Color When someone is Online*/
+  --idle: #faa61a !important;
+  /*Color When someone is Idle*/
+  --dnd: #f04747 !important;
+  /*Color When someone is in Do Not Disturb*/
+  --offline: #636b75 !important;
+  /*Color When someone is offline*/
+  --invisible: #747f8d !important;
+  /*Color When someone is Invisible*/
+  --streaming: #643da7 !important;
+  /*Color When someone is Streaming*/
+}
+
+div#app-mount {
+  background: var(--backdrop) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+.membersGroup-v9BXpm {
+  color: rgba(10, 255, 50, .75) !important;
+  font-size: 14px;
+}
+
+div.content-3YMskv.da-content {
+  height: 0px !important;
+}
+
+.member-3-YXUe {
+  background: rgba(0, 0, 0, .3) !important;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.members-1998pB, .members-1998pB>div {
+  background: rgba(0, 0, 0, .3) !important;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.icon-3BcwQu, .username-lm8y6T {
+  color: var(--channels-default);
+}
+
+.scrollableContainer-2NUZem {
+  background: rgba(0, 0, 0, .25) !important;
+  border-radius: 6px;
+}
+
+.name-IbjUBS.da-name.container-2ax-kl.da-container {
+  color: rgba(100, 100, 100, 1) !important;
+}
+
+.subtext-1RtU34.da-subtext {
+  color: rgba(100, 100, 100, .75) !important;
+}
+
+.headerText-2F0828.da-headerText {
+  color: rgba(200, 200, 200, .75) !important;
+}
+
+.searchBarComponent-32dTOx.da-searchBarComponent {
+  color: transparent !important;
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.75) !important;
+}
+
+.item-2hkk8m {
+  width: 2px !important;
+}
+
+.chat-3bRxxu form {
+  margin: 4px 20px -5px 10px;
+}
+
+.sidebar-2K8pFh {
+  margin-right: 0px;
+}
+
+.title-3qD0b-.container-1r6BKw.transparent-2ZlE3R {
+  margin-bottom: 10px;
+  padding: 0px 0px;
+  margin-top: 10px;
+}
+
+.da-emojiPicker, #bda-qem-twitch-container, #bda-qem-favourite-container {
+  background: none !important;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0px !important;
+  border: 0px solid rgba(0, 0, 0, 0.75) !important;
+  background-size: cover !important;
+  box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.75);
+}
+
+label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
+  margin-left: 0px;
+  background-color: var(--main-color) !important;
+}
+
+.da-menu .da-item {
+  height: auto !important;
+}
+
+.styleFixed-sX-yHV {
+  width: 220px;
+  background: var(--main-color-faded);
+}
+
+.scroller-1IIF0A {
+  background-color: transparent;
+  contain: layout size;
+}
+
+.header-39GIC8 {
+  background-color: transparent;
+  border-bottom: 0px;
+}
+
+.container-19hC9u:before {
+  height: 0px;
+}
+
+.actionButton-uPB8Fs {
+  color: white;
+  background-color: transparent;
+}
+
+.emptyCard-1RJw8n {
+  background: transparent;
+}
+
+.detailsBlock-FoDTGA {
+  background-color: #2f3136b3;
+}
+
+.da-sidebar:hover {
+  width: 240px !important;
+}
+
+.chat-3bRxxu form {
+  margin: -10px 20px -27px 10px;
+}
+
+.typing-2GQL18 {
+  margin-bottom: 75px;
+}
+
+.header-ykumBX {
+  background-blend-mode: darken;
+  background-image: var(--backdrop) !important;
+  background-color: rgba(0, 0, 0, .5) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+.container-3u944p {
+  background-blend-mode: darken;
+  background-image: var(--backdrop) !important;
+  background-color: rgba(0, 0, 0, .5) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+.icon-1Itzco {
+  background-color: transparent !important;
+}
+
+.wrapper-2qzCYF.normal-1oavYI {
+  height: 44%;
+  border-radius: 13px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 13px;
+}
+
+.videoGrid-1khsrF {
+  height: 100%;
+}
+
+.outer-s4sY2_ {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.keybindDescription-2RDbC2 {
+  color: gray !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+}
+
+.backdrop-1wrmKB {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.quickswitcher-3JagVE {
+  background-blend-mode: darken;
+  background-image: var(--backdrop) !important;
+  background-color: rgba(0, 0, 0, .25) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+.members-1998pB, .members-1998pB>div {
+  background-color: transparent;
+}
